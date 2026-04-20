@@ -12,9 +12,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-
+ 
   <a href="#main-content" class="skip-link">Skip to main content</a>
-
+ 
   <header class="site-header" id="site-header">
     <nav class="nav container" aria-label="Main navigation">
       <a href="index.html" class="nav__logo" aria-label="NexaFlow home">
@@ -34,9 +34,9 @@
       </ul>
     </nav>
   </header>
-
+ 
   <main id="main-content">
-
+ 
     <!-- ===== PAGE HERO ===== -->
     <section class="page-hero section" aria-labelledby="contact-hero-heading">
       <div class="hero__noise" aria-hidden="true"></div>
@@ -48,25 +48,25 @@
         </h1>
       </div>
     </section>
-
+ 
     <!-- ===== CONTACT LAYOUT ===== -->
     <section class="contact-section section" aria-labelledby="contact-form-heading">
       <div class="container contact-layout">
-
+ 
         <!-- SIDEBAR INFO -->
         <aside class="contact-info" aria-label="Contact information">
           <h2 class="sr-only" id="contact-info-heading">Contact details</h2>
-
+ 
           <div class="info-block">
             <div class="mono info-block__label">Email</div>
             <a href="mailto:hello@nexaflow.co" class="info-block__value">hello@nexaflow.co</a>
           </div>
-
+ 
           <div class="info-block">
             <div class="mono info-block__label">Phone</div>
             <a href="tel:+441234567890" class="info-block__value">+44 (0) 123 456 7890</a>
           </div>
-
+ 
           <div class="info-block">
             <div class="mono info-block__label">Studio</div>
             <address class="info-block__value">
@@ -75,12 +75,12 @@
               United Kingdom
             </address>
           </div>
-
+ 
           <div class="info-block">
             <div class="mono info-block__label">Hours</div>
             <p class="info-block__value">Monday – Friday<br>09:00 – 18:00 GMT</p>
           </div>
-
+ 
           <div class="info-block">
             <div class="mono info-block__label">Socials</div>
             <div class="social-links">
@@ -89,17 +89,17 @@
               <a href="#" class="social-link" aria-label="NexaFlow on Dribbble" rel="noopener noreferrer">Dribbble</a>
             </div>
           </div>
-
+ 
           <!-- Saved drafts notice -->
           <div class="draft-notice" id="draftNotice" hidden aria-live="polite">
             <span class="mono">✓</span> Your draft has been saved.
           </div>
         </aside>
-
+ 
         <!-- FORM -->
         <div class="contact-form-wrap">
           <h2 class="contact-form-wrap__heading" id="contact-form-heading">Tell us about your project</h2>
-
+ 
           <!-- Success message (hidden by default) -->
           <div class="form-success" id="formSuccess" role="alert" aria-live="polite" hidden>
             <div class="form-success__icon" aria-hidden="true">✓</div>
@@ -107,7 +107,7 @@
             <p>Thank you for reaching out. We'll get back to you within one business day.</p>
             <button class="btn btn--outline" id="sendAnother">Send another message</button>
           </div>
-
+ 
           <form class="contact-form" id="contactForm" novalidate aria-label="Project enquiry form">
             <div class="form-row">
               <div class="form-group">
@@ -139,7 +139,7 @@
                 <span class="form-error" id="lastName-error" role="alert" aria-live="polite"></span>
               </div>
             </div>
-
+ 
             <div class="form-group">
               <label for="email">Email Address <span class="required" aria-label="required">*</span></label>
               <input
@@ -154,7 +154,7 @@
               />
               <span class="form-error" id="email-error" role="alert" aria-live="polite"></span>
             </div>
-
+ 
             <div class="form-group">
               <label for="company">Company / Organisation</label>
               <input
@@ -165,7 +165,7 @@
                 placeholder="Acme Corp"
               />
             </div>
-
+ 
             <div class="form-group">
               <label for="service">Service of Interest <span class="required" aria-label="required">*</span></label>
               <div class="select-wrap">
@@ -189,7 +189,7 @@
               </div>
               <span class="form-error" id="service-error" role="alert" aria-live="polite"></span>
             </div>
-
+ 
             <div class="form-group">
               <label for="budget">Estimated Budget</label>
               <div class="select-wrap">
@@ -204,7 +204,7 @@
                 <span class="select-arrow" aria-hidden="true">↓</span>
               </div>
             </div>
-
+ 
             <div class="form-group">
               <label for="message">Tell us about your project <span class="required" aria-label="required">*</span></label>
               <textarea
@@ -222,7 +222,7 @@
                 <span class="char-count mono" id="message-count" aria-live="polite">0 / 2000</span>
               </div>
             </div>
-
+ 
             <div class="form-group form-group--checkbox">
               <label class="checkbox-label">
                 <input
@@ -240,7 +240,7 @@
               </label>
               <span class="form-error" id="consent-error" role="alert" aria-live="polite"></span>
             </div>
-
+ 
             <div class="form-actions">
               <button type="submit" class="btn btn--primary btn--lg btn--submit" id="submitBtn">
                 <span class="btn-text">Send Message</span>
@@ -252,7 +252,7 @@
         </div>
       </div>
     </section>
-
+ 
     <!-- ===== FAQ ===== -->
     <section class="faq section" aria-labelledby="faq-heading">
       <div class="container">
@@ -300,9 +300,9 @@
         </div>
       </div>
     </section>
-
+ 
   </main>
-
+ 
   <footer class="site-footer" role="contentinfo">
     <div class="container footer__inner">
       <div class="footer__brand">
@@ -325,9 +325,9 @@
       </div>
     </div>
   </footer>
-
-  <script type="module" src="js/nav.js"></script>
-  <script type="module" src="js/contact.js"></script>
-  <script type="module" src="js/utils.js"></script>
+ 
+  <script src="js/nav.js"></script>
+  <script src="js/contact.js"></script>
+  <script src="js/utils.js"></script>
 </body>
 </html>
